@@ -10,7 +10,7 @@ const Todo = ({ todo, onDelete, onEdit }) => {
   const [editedText, setEditedText] = useState(todo.text);
 
   const handleEdit = () => {
-    setIsEditing(true);
+    setIsEditing(true)
   };
 
   const handleSave = () => {
